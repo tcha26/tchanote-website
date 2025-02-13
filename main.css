@@ -1,0 +1,94 @@
+@import url("https://fonts.googleleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #78c1f3;
+    background-image: url(images/innerback.jpg);
+    overflow: hidden;
+    overflow-y: scroll;
+
+}
+
+.container{
+    width: 100%;
+    max-width: 9000px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    overflow-y: scroll;
+    position: fixed;
+}
+
+.container p{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #007bff;
+    border: 1px solid;
+    padding: 100px;
+    border-radius: 7px;
+    width: 80%;
+    max-width: 600px;
+    height: 90%;
+}
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#recordBtn{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#recordBtn.recording{
+    background-color: #dc3545;
+}
+
+#transcript{
+    margin: 20px 0;
+    padding: 15px;
+    min-height: 320px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow-y: auto;
+    font-size: 16px;
+    color: #333;
+}
+
+.controls button{
+    margin: 55px 30px;
+    padding: 40px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    position: auto;
+}
+
+#copyBtn{
+    background-color: yellow;
+}
+#saveBtn{
+    background-color: silver;
+}
+#clearBtn{
+    background-color: rgb(33, 52, 218);
+}
